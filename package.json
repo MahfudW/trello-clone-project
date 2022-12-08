@@ -1,0 +1,30 @@
+{
+  "name": "latihan-trello",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.9",
+    "immer": "^9.0.16",
+    "nanoid": "3.1.22",
+    "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.2.1",
+    "throttle-debounce-ts": "^1.1.1",
+    "use-immer": "^0.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}
